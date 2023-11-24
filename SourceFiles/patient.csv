@@ -1,0 +1,8 @@
+patientid,Sex,ethnicity,Race,Age,primary_care_provider
+111013198531,Female,"No, Not Hispanic, Latino/a, or Spanish origin",White,31,1700233590
+111013208632,Male,Patient declined to respond,Patient declined to respond,36,1619468428
+111013213095,Female,Hispanic or Latino,None of the above,25,
+111014123456,Female,African American,30,1659717221,
+111013225659,Male,"No, Not Hispanic, Latino/a, or Spanish origin",White,27,
+111013235506,Female,"No, Not Hispanic, Latino/a, or Spanish origin",White,31,1245677319
+111013238188,Female,Hispanic or Latino,White,30,1659717221
