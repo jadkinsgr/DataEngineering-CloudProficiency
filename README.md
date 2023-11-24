@@ -2,7 +2,7 @@
 
 ## Welcome to the Repository!
 
-This project is dedicated to delivering a comprehensive solution for file ingestion, catalog creation, and the generation of reporting views for combined data tables.
+This project is dedicated to delivering a comprehensive solution for file ingestion, catalog creation, and the generation of reporting views for combined data tables. Technologies leveraged in this example include: Amazon web services and a free 14 day trial of databricks.
 
 ## Table of Contents
 
