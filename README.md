@@ -4,6 +4,12 @@
 
 This project is dedicated to delivering a comprehensive solution for file ingestion, catalog creation, and the generation of reporting views for combined data tables. Technologies leveraged in this example include: Amazon web services and a free 14 day trial of databricks.
 
+Resource Links include: 
+1. [Databricks Cloud Console](https://accounts.cloud.databricks.com/workspaces/1179215281469068)
+2. [Databricks Workspace](https://dbc-f59dffe9-297c.cloud.databricks.com/onboarding?o=5960597514985596#)
+3. [Databricks Adding Data](https://dbc-f59dffe9-297c.cloud.databricks.com/dataingestion/add?o=5960597514985596#)
+4. [AWS Console](https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2)
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
