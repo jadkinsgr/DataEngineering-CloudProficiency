@@ -8,12 +8,7 @@ def download_and_save(url, save_path):
     if response.status_code == 200:
         # Extract file name from the URL
         file_name = os.path.basename(urlparse(url).path)
-
-        # Get file extension from the content type
-        file_extension = response.headers.get('Content-Type').split('/')[-1]
-
-        # Combine file name and extension
-        file_path = os.path.join(save_path, f"{file_name}.{file_extension}")
+        file_path = os.path.join(save_path, file_name)
 
         with open(file_path, 'wb') as file:
             file.write(response.content)
@@ -33,6 +28,14 @@ urls = [
     "https://www.riverhospital.org/component/osdownloads/download/general/2023-price-transparency-xlsx",
     "https://www.mmchs.org/wp-content/uploads/2023/05/MeadvilleMedicalCenter-PriceTransparency-StandardCharges.xlsx",
     "https://www.albanymed.org/wp-content/uploads/attachements/141338307_AlbanyMedicalCenter_standardcharges.csv",
+    "https://bsweh.org/wp-content/uploads/forms/26-2978009_Baylor-Scott-and-White-Emergency-Hospital_standardcharges.csv",
+    "https://bsweh.org/wp-content/uploads/forms/36-4755936_Baylor-Scott-and-White-Emergency-Hospital_standardcharges.csv",
+    "https://bsweh.org/pricing-transparency/26-2978009_Baylor-Scott-and-White-Emergency-Hospital_standardcharges.csv",
+    "https://bsweh.org/wp-content/uploads/forms/36-4755936_Baylor-Scott-and-White-Emergency-Hospital_standardcharges.csv",
+    "https://bsweh.org/wp-content/uploads/forms/26-2978009_Baylor-Scott-and-White-Emergency-Hospital_standardcharges.csv",
+    "https://bsweh.org/wp-content/uploads/forms/36-4755936_Baylor-Scott-and-White-Emergency-Hospital_standardcharges.csv",
+    "https://bsweh.org/wp-content/uploads/forms/26-2978009_Baylor-Scott-and-White-Emergency-Hospital_standardcharges.csv",
+    "https://bsweh.org/wp-content/uploads/forms/26-2978009_Baylor-Scott-and-White-Emergency-Hospital_standardcharges.csv",
     "https://www.nuvancehealth.org/-/media/pdf-files/billing-and-insurance/price-transparency-and-cost-estimator/january-2023/06-0646597_danbury-hospital_standardcharges.xlsx"
     
 ]
