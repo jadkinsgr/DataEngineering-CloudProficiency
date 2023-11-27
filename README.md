@@ -5,7 +5,7 @@
 This project is dedicated to delivering a comprehensive solution for file ingestion, catalog creation, and the generation of reporting views for combined data tables. Technologies leveraged in this example include: Amazon web services and a free 14 day trial of databricks.
 
 Slideshow Link 
-1. [Tendo]([https://accounts.cloud.databricks.com/workspaces/1179215281469068](https://docs.google.com/presentation/d/15okopOQQMM01EgepdgbQaMBymA6SL1EU4HZDOsSJDhQ/edit?usp=sharing))
+1. [Tendo]((https://docs.google.com/presentation/d/15okopOQQMM01EgepdgbQaMBymA6SL1EU4HZDOsSJDhQ/edit?usp=sharing))
 
 Resource Links include: 
 1. [Databricks Cloud Console](https://accounts.cloud.databricks.com/workspaces/1179215281469068)
